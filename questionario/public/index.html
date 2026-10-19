@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Questionário Socioeconômico</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo"><div class="wrap">
+    <h1>Questionário Socioeconômico</h1>
+    <p>Escolha uma categoria e responda às 10 perguntas.</p>
+    <div class="status" id="status" role="status" aria-live="polite"><i></i><span>Conectando…</span></div>
+  </div></header>
+
+  <main class="wrap">
+    <noscript><p class="erro">Este questionário precisa de JavaScript para funcionar.</p></noscript>
+
+    <!-- Página inicial -->
+    <section id="home">
+      <p class="intro">Cada pergunta mostra, ao lado, o resultado da pesquisa em tempo real, com as respostas de todos os participantes.</p>
+      <div class="cards" id="cards"></div>
+      <p class="aviso">As respostas são anônimas e os gráficos são atualizados automaticamente sempre que alguém envia um questionário.</p>
+    </section>
+
+    <!-- Perguntas + gráfico -->
+    <section id="quiz" hidden>
+      <div class="layout">
+        <div class="painel">
+          <div class="cab"><strong id="cat-titulo"></strong><span id="pergunta-num"></span></div>
+          <div class="trilho"><div id="barra"></div></div>
+          <h3 class="enun" id="pergunta-texto"></h3>
+          <div id="opcoes"></div>
+          <input id="outra-txt" type="text" maxlength="200" placeholder="Qual? (opcional)" hidden>
+          <div class="erro" id="erro" role="alert"></div>
+          <div class="nav">
+            <button class="btn sec" id="voltar" type="button">Voltar</button>
+            <button class="btn" id="avancar" type="button">Avançar</button>
+          </div>
+        </div>
+        <div class="painel">
+          <h4>Resultados da pesquisa</h4>
+          <p class="sub" id="sub">Resultados em tempo real</p>
+          <div class="grafico-box">
+            <canvas id="grafico"></canvas>
+            <div class="vazio" id="vazio" hidden>Ainda não há respostas para esta pergunta.<br>Seja a primeira pessoa a responder!</div>
+          </div>
+          <ul class="leg" id="legenda"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Conclusão -->
+    <section id="fim" hidden>
+      <div class="painel fim">
+        <div class="ic">✅</div>
+        <h2 id="fim-titulo"></h2>
+        <p id="fim-msg"></p>
+        <div class="acoes" id="fim-acoes"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="vendor/chart.umd.js"></script>
+  <script src="vendor/chartjs-plugin-datalabels.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

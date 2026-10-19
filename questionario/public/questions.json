@@ -1,0 +1,319 @@
+{
+  "pessoal": {
+    "titulo": "Pessoal",
+    "icone": "🏠",
+    "desc": "Moradia, família e perfil pessoal.",
+    "perguntas": [
+      {
+        "texto": "Quantos quartos há na sua residência?",
+        "opcoes": [
+          "1 quarto",
+          "2 quartos",
+          "3 quartos",
+          "4 quartos",
+          "5 ou mais quartos"
+        ]
+      },
+      {
+        "texto": "Quantos freezers há na sua residência?",
+        "opcoes": [
+          "Nenhum",
+          "1 freezer",
+          "2 freezers",
+          "3 freezers",
+          "4 ou mais freezers"
+        ]
+      },
+      {
+        "texto": "Quantos micro-ondas há na sua residência?",
+        "opcoes": [
+          "Nenhum",
+          "1 micro-ondas",
+          "2 micro-ondas",
+          "3 micro-ondas",
+          "4 ou mais micro-ondas"
+        ]
+      },
+      {
+        "texto": "Quantos automóveis há na sua residência?",
+        "opcoes": [
+          "Nenhum",
+          "1 automóvel",
+          "2 automóveis",
+          "3 automóveis",
+          "4 ou mais automóveis"
+        ]
+      },
+      {
+        "texto": "Quantos secadores de roupas há na sua residência?",
+        "opcoes": [
+          "Nenhum",
+          "1 secadora",
+          "2 secadoras",
+          "3 secadoras",
+          "4 ou mais secadoras"
+        ]
+      },
+      {
+        "texto": "Quantas pessoas moram na sua residência?",
+        "opcoes": [
+          "1 pessoa",
+          "2 pessoas",
+          "3 pessoas",
+          "4 pessoas",
+          "5 ou mais pessoas"
+        ]
+      },
+      {
+        "texto": "Quantos celulares/computadores há na sua residência?",
+        "opcoes": [
+          "Nenhum",
+          "1 aparelho",
+          "2 aparelhos",
+          "3 aparelhos",
+          "4 aparelhos",
+          "5 ou mais aparelhos"
+        ]
+      },
+      {
+        "texto": "Qual seu estado civil?",
+        "opcoes": [
+          "Solteiro",
+          "Casado",
+          "União estável",
+          "Divorciado",
+          "Separado",
+          "Viúvo(a)",
+          "Prefiro não responder"
+        ]
+      },
+      {
+        "texto": "Quantos filhos você tem?",
+        "opcoes": [
+          "Nenhum",
+          "1 filho",
+          "2 filhos",
+          "3 filhos",
+          "4 filhos",
+          "5 ou mais filhos"
+        ]
+      },
+      {
+        "texto": "Como você se identifica em relação à sua raça/cor?",
+        "opcoes": [
+          "Branco",
+          "Preto",
+          "Pardo",
+          "Amarelo",
+          "Indígena",
+          "Outro",
+          "Prefiro não responder"
+        ]
+      }
+    ]
+  },
+  "educacional": {
+    "titulo": "Educacional",
+    "icone": "🎓",
+    "desc": "Trajetória e desempenho escolar.",
+    "perguntas": [
+      {
+        "texto": "Qual é o seu nível de escolaridade?",
+        "opcoes": [
+          "Ensino Fundamental incompleto",
+          "Ensino Fundamental completo",
+          "Ensino Médio incompleto",
+          "Ensino Médio completo",
+          "Ensino Superior incompleto",
+          "Ensino Superior completo"
+        ]
+      },
+      {
+        "texto": "Em qual tipo de instituição de ensino você estudou?",
+        "opcoes": [
+          "Escola pública",
+          "Escola particular",
+          "Ambas"
+        ]
+      },
+      {
+        "texto": "Qual foi sua área ou curso de formação?",
+        "opcoes": [
+          "Ensino Fundamental",
+          "Ensino Médio",
+          "Curso técnico",
+          "Graduação",
+          "Outro"
+        ]
+      },
+      {
+        "texto": "Atualmente, você está estudando?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "texto": "Você possui pós-graduação, mestrado ou doutorado?",
+        "opcoes": [
+          "Especialização",
+          "Mestrado",
+          "Doutorado",
+          "Nenhum"
+        ]
+      },
+      {
+        "texto": "Você já foi reprovado(a) em alguma etapa da vida escolar?",
+        "opcoes": [
+          "Sim",
+          "Não"
+        ]
+      },
+      {
+        "texto": "Como você avalia seu desempenho escolar durante os estudos?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Regular",
+          "Insatisfatório"
+        ]
+      },
+      {
+        "texto": "Como você avalia sua participação e seu comportamento no ambiente escolar?",
+        "opcoes": [
+          "Excelente",
+          "Bom",
+          "Regular",
+          "Insatisfatório"
+        ]
+      },
+      {
+        "texto": "Você considera que teve oportunidades suficientes para concluir seus estudos?",
+        "opcoes": [
+          "Sim",
+          "Parcialmente",
+          "Não"
+        ]
+      },
+      {
+        "texto": "Qual foi a principal dificuldade que você enfrentou durante sua trajetória escolar?",
+        "opcoes": [
+          "Dificuldades financeiras",
+          "Necessidade de trabalhar",
+          "Falta de acesso à escola",
+          "Dificuldades de aprendizagem",
+          "Responsabilidades familiares",
+          "Não enfrentei dificuldades",
+          "Outra. Qual?"
+        ],
+        "outra": true
+      }
+    ]
+  },
+  "profissional": {
+    "titulo": "Profissional",
+    "icone": "💼",
+    "desc": "Trabalho, renda e carreira.",
+    "perguntas": [
+      {
+        "texto": "Qual é a sua profissão?",
+        "opcoes": [
+          "Professor(a)",
+          "Comerciante",
+          "Agricultor(a)",
+          "Trabalhador(a) autônomo(a)",
+          "Funcionário(a) público(a)",
+          "Outra profissão"
+        ]
+      },
+      {
+        "texto": "Qual é a sua faixa salarial mensal?",
+        "opcoes": [
+          "Menos de um salário mínimo",
+          "Um salário mínimo",
+          "De 1 a 2 salários mínimos",
+          "De 3 a 4 salários mínimos",
+          "Acima de 4 salários mínimos"
+        ]
+      },
+      {
+        "texto": "Qual é a sua carga horária diária de trabalho?",
+        "opcoes": [
+          "Até 4 horas",
+          "De 5 a 6 horas",
+          "De 7 a 8 horas",
+          "Mais de 8 horas"
+        ]
+      },
+      {
+        "texto": "Você está satisfeito(a) com sua profissão?",
+        "opcoes": [
+          "Muito satisfeito(a)",
+          "Satisfeito(a)",
+          "Pouco satisfeito(a)",
+          "Insatisfeito(a)"
+        ]
+      },
+      {
+        "texto": "Você está satisfeito(a) com seu salário?",
+        "opcoes": [
+          "Muito satisfeito(a)",
+          "Satisfeito(a)",
+          "Pouco satisfeito(a)",
+          "Insatisfeito(a)"
+        ]
+      },
+      {
+        "texto": "Qual é a sua situação profissional atual?",
+        "opcoes": [
+          "Trabalhador(a) formal, com carteira assinada",
+          "Trabalhador(a) informal, sem carteira assinada",
+          "Autônomo(a)",
+          "Servidor(a) público(a)",
+          "Desempregado(a)"
+        ]
+      },
+      {
+        "texto": "Você considera que seu trabalho oferece boas oportunidades de crescimento profissional?",
+        "opcoes": [
+          "Sim, muitas oportunidades",
+          "Sim, algumas oportunidades",
+          "Poucas oportunidades",
+          "Nenhuma oportunidade"
+        ]
+      },
+      {
+        "texto": "Você possui algum curso de formação profissional?",
+        "opcoes": [
+          "Sim, curso técnico",
+          "Sim, curso profissionalizante",
+          "Sim, curso superior",
+          "Possuo mais de uma formação",
+          "Não possuo formação profissional"
+        ]
+      },
+      {
+        "texto": "Há quanto tempo você exerce sua profissão atual?",
+        "opcoes": [
+          "Menos de 1 ano",
+          "De 1 a 5 anos",
+          "De 6 a 10 anos",
+          "De 11 a 20 anos",
+          "Mais de 20 anos"
+        ]
+      },
+      {
+        "texto": "Qual meio de transporte você utiliza para ir ao trabalho?",
+        "opcoes": [
+          "Carro",
+          "Motocicleta",
+          "Ônibus",
+          "Bicicleta",
+          "Transporte oferecido pela empresa",
+          "Vou a pé",
+          "Outro meio de transporte"
+        ]
+      }
+    ]
+  }
+}
